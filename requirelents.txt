@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+torch
+transformers
+unsloth
+snac
+scipy
+numpy
+python-dotenv
