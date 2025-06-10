@@ -10,13 +10,13 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Création du répertoire de travail
-WORKDIR /app
+# WORKDIR /app
 
 # Copie des fichiers
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./app /app
+# COPY ./app /app
 
 # Exposition du port
 EXPOSE 8000
